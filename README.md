@@ -22,6 +22,7 @@ This is the backend application for the [Your Project Name]. It is built using N
    git clone https://github.com/your-username/backend.git
    cd backend
    npm install
+   npm run dev
   
 DB_HOST=localhost
 DB_USER=root
@@ -29,8 +30,6 @@ DB_PASSWORD=yourpassword
 DB_NAME=yourdbname
 JWT_SECRET=yourjwtsecret
 
-```bash
-  npm run dev 
 
 ### Instructions for Usage:
 - You can customize the `README.md` to fit more specific details about your backend application, such as specific routes, features, or usage instructions.
